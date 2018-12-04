@@ -1,39 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 import {Search} from './components/Search'; 
+import logo from '../../cddr.png'; 
 
 export default () => (
   <div className="App-intro">
-  <h2>CDDR</h2>
+   <img src={logo} alt="CDDR logo"/>
+  <h2>CDDR data dashboard</h2>
         <div>
             <div className="col-xs-5 col-xs-offset-1">
               <Search/>
             </div>
         </div>
+        
+    <h4>Female: 43.22%</h4>
+    <h4>Male: 56.35%</h4>
+    <h4>Students: 23.63%</h4>
+    <h4>Unemployed: 16.4%</h4>
+    <h4>Employed: 18.16%</h4>
+    <h4> <Link to="/bar-chart">City Distribution Chart</Link></h4>
+    <h4><Link to="/donut-chart">Students'interests Chart</Link> </h4>
+    <h4><Link to="/donut-chart">Level of Experience Chart</Link></h4>
+    <h4><Link to="/donut-chart">Marketing Traffic</Link></h4>
 
-    <h3>Standard Charts:</h3>
-    <ul>
-      <li>
-        <Link to="/bar-chart">Bar Chart</Link>
-      </li>
-      <li>
-        <Link to="/donut-chart">Donut Chart</Link>
-      </li>
-      <li>
-        <Link to="/multi-series-line-chart">Multi-Series Line Chart</Link>
-      </li>
-    </ul>
-
-    <h3>Animated Charts:</h3>
-    <ul>
-      <li>
-        <Link to="/bar-chart/animated">Bar Chart</Link>
-      </li>
-      <li>
-        <Link to="/multi-series-line-chart/animated">
-          Multi-Series Line Chart
-        </Link>
-      </li>
-    </ul>
   </div>
 );

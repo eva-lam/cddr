@@ -10,7 +10,7 @@ import dataTsv from './data';
 
 import './chart.css';
 
-const svgWidth = 960,
+const svgWidth = 1260,
   svgHeight = 500;
 
 //Note: getting width and height from a variable rather than the elements attribute e.g. svg.attr("width")
@@ -47,7 +47,7 @@ export default () => (
           * https://reactjs.org/docs/integrating-with-other-libraries.html 
           */}
         <text transform="rotate(-90)" y="6" dy="0.71em" textAnchor="end">
-          Frequency
+          Number
         </text>
       </g>
       {data.map(d => (

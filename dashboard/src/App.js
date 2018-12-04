@@ -4,6 +4,8 @@ import Home from './views/home';
 import BarChart from './views/bar-chart';
 import AnimatedBarChart from './views/bar-chart/animated-chart';
 import DonutChart from './views/donut-chart';
+import ExperienceChart from './views/experience-donut-chart';
+import StudentsInterestChart from './views/experience-donut-chart';
 import MultiSeriesLineChart from './views/multi-series-line-chart';
 import AnimatedMultiSeriesLineChart from './views/multi-series-line-chart/animated-chart';
 import image1 from './logo.jpg';
@@ -43,8 +45,8 @@ class App extends Component {
             component={AnimatedMultiSeriesLineChart}
           />
           <footer className="App-footer">
-            &copy; 2018 <a href="https://github.com/eva-lam/cddr">CDDR Team</a>.
-            CDDR 2018 holiday hackathon
+            &copy; 2018 <a href="https://github.com/eva-lam/cddr">CDDR Team</a>
+            
           </footer>
         </div>
       </Router>

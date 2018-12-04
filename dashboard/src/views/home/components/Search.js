@@ -32,7 +32,7 @@ export class Search extends React.Component {
       return (
         <form>
           <input
-            placeholder="Search for a party..."
+            placeholder="Search for data chart..."
             ref={input=>this.search=input}
             onChange={this.handleInputChange}
           />
