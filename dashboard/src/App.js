@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Home from './views/home';
-import UserPage from './components/user-page/UserPage';
+import Student from './components/student/Student';
 
-import Logo from './vg.png';
 import './App.css';
 
 class App extends Component {
@@ -12,7 +11,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Route exact path="/" component={Home} />
-          <Route exact path="/user-page" component={UserPage} />
+          <Route exact path="/student/:id" component={Student} />
 
           <footer className="App-footer" />
         </div>

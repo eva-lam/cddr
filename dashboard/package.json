@@ -8,6 +8,7 @@
   },
   "homepage": "http://row1.github.io/react-declarative-d3",
   "dependencies": {
+    "@material-ui/core": "^3.6.1",
     "axios": "^0.18.0",
     "d3-array": "^1.2.4",
     "d3-axis": "^1.0.12",
@@ -42,10 +43,5 @@
     "prettier": "1.11.1",
     "pretty-quick": "^1.4.1"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
