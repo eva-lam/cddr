@@ -43,8 +43,8 @@ class App extends Component {
             component={AnimatedMultiSeriesLineChart}
           />
           <footer className="App-footer">
-            &copy; 2018 <a href="https://github.com/jmularski/VisGov">VisGov Team</a>.
-            VisGov 2018 dpa hackathon
+            &copy; 2018 <a href="https://github.com/eva-lam/cddr">CDDR Team</a>.
+            CDDR 2018 holiday hackathon
           </footer>
         </div>
       </Router>
